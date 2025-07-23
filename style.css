@@ -23,19 +23,21 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 0.5rem;
   background: var(--primary);
   color: white;
 }
 
 header img {
-  max-height: 50px;
+  max-height: 70px;
+  border-radius: 3px;;
 }
 
 .nav-list {
   display: flex;
   gap: 1rem;
   list-style: none;
+  padding-right: 4rem;
 }
 
 .nav-list a {
