@@ -3,6 +3,7 @@ const menuToggle = document.querySelector('.menu-toggle');
 const navList = document.querySelector('.nav-list');
 
 menuToggle.addEventListener('click', () => {
+    console.log('Menu toggle clicked');
   navList.classList.toggle('open');
 });
 
