@@ -28,16 +28,25 @@ header {
   color: white;
 }
 
+.header-container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 header img {
+  display: block;
   max-height: 70px;
-  border-radius: 3px;;
+  border-radius: 3px;
 }
 
 .nav-list {
   display: flex;
   gap: 1rem;
   list-style: none;
-  padding-right: 4rem;
 }
 
 .nav-list a {
@@ -186,5 +195,10 @@ main {
 
   .menu-toggle {
     display: block;
+  }
+
+  #presentation {
+    flex-direction: column-reverse;
+    text-align: center;
   }
 }
