@@ -204,9 +204,11 @@ main {
     display: block;
   }
 
-  .menu-toggle button:hover {
+  .menu-toggle:hover,
+  .menu-toggle.active {
     color: #29b3c3;
   }
+
 
   .presentation {
     flex-direction: column-reverse;
