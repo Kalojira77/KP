@@ -56,6 +56,7 @@ header img {
 
 .nav-list a:hover {
   color: #29b3c3;
+  transition: all 0.3s ease;
 }
 
 .menu-toggle {
@@ -180,6 +181,32 @@ main {
   flex-direction: column;
   gap: 0.5rem;
   margin-bottom: 1rem;
+  width: 70%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact form button {
+  background: #09131a;
+  width: fit-content;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0 auto;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact form button:hover {
+  transform: scale(1.02);
+}
+
+.contact form input,
+.contact form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
 }
 
 .footer {
@@ -216,6 +243,7 @@ main {
   .menu-toggle:hover,
   .menu-toggle.active {
     color: #29b3c3;
+    transition: all 0.3s ease;
   }
 
 
@@ -228,4 +256,9 @@ main {
   .presentation-text {
     flex: 1 1 auto;
   }
+
+  .contact form {
+    width: 100%;
+    max-width: none;
+  } 
 }
