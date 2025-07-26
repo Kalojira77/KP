@@ -81,6 +81,13 @@ modalClose.addEventListener('click', () => {
   modal.setAttribute('hidden', true);
 });
 
+// Fermer la modale en cliquant sur l'arrière-plan
+modal.addEventListener('click', (e) => {
+  if (e.target === modal) { 
+    modal.setAttribute('hidden', true);
+  }
+});
+
 // Année dynamique
 document.getElementById('year').textContent = new Date().getFullYear();
 
