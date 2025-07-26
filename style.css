@@ -1,8 +1,9 @@
 :root {
-  --primary: #1a1a1a;
-  --secondary: #f5f5f5;
-  --accent: #ff5722;
-  --font-color: #333;
+  --primary: #10575b;
+  --secondary: #1a7075;
+  --dark-background: #09131a;
+  --accent: #29b3c3;
+  --font-color: #f5f5f5;
   --max-width: 1200px;
 }
 
@@ -18,8 +19,8 @@ body {
   background: var(--secondary); */
   line-height: 1.6;
 
-  background-color: #10575b;
-  color: #f5f5f5;
+  background-color: var(--primary);
+  color: var(--font-color);
 }
 
 h2 {
@@ -28,7 +29,7 @@ h2 {
 
 a.btn {
   display: inline-block;
-  color: white;
+  color: var(--font-color);
   padding: 0.5rem 1rem;
   border-radius: 5px;
   text-decoration: none;
@@ -38,7 +39,7 @@ a.btn {
 a.btn:hover {
   transform: scale(1.02);
   text-decoration: underline;
-  color: white;
+  color: var(--font-color);
 }
 
 header {
@@ -46,8 +47,8 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem;
-  background: #09131a;
-  color: white;
+  background: var(--dark-background);
+  color: var(--font-color);
 }
 
 .header-container {
@@ -72,12 +73,12 @@ header img {
 }
 
 .nav-list a {
-  color: white;
+  color: var(--font-color);
   text-decoration: none;
 }
 
 .nav-list a:hover {
-  color: #29b3c3;
+  color: var(--accent);
   transition: all 0.3s ease;
 }
 
@@ -85,7 +86,7 @@ header img {
   display: none;
   background: none;
   border: none;
-  color: white;
+  color: var(--font-color);
   font-size: 2rem;
 }
 
@@ -109,9 +110,9 @@ main {
 }
 
 .presentation-avatar img {
-  max-width: 20rem;
+  max-width: 16rem;
   border-radius: 50px;
-  border: 5px solid #09131a;
+  border: 5px solid var(--dark-background);
 }
 
 .projets {
@@ -129,7 +130,7 @@ main {
   flex-direction: column;
   justify-content: space-between;
   background: white;
-  background-color: #1a7075;
+  background-color: var(--secondary);
   padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -165,7 +166,7 @@ main {
 
 .modal-content {
   position: relative;
-  background: white;
+  background: var(--primary);
   display: flex;
   flex-direction: column;
   padding: 2rem;
@@ -182,6 +183,7 @@ main {
   background: none;
   border: none;
   font-size: 1.5rem;
+  color: var(--font-color);
   cursor: pointer;
 }
 
@@ -211,7 +213,7 @@ main {
 .modal-tech-icons span small {
   margin-top: 6px;
   font-size: 12px;
-  color: #333;
+  color: var(--font-color);
 }
 
 .modal[hidden] {
@@ -253,7 +255,7 @@ main {
     .tech-icons span small {
       margin-top: 8px;
       font-size: 14px;
-      color: white;
+       color: var(--font-color);
     }
 
     .devicon-express-original {
@@ -273,9 +275,9 @@ main {
 }
 
 .contact form button {
-  background: #09131a;
+  background: var(--dark-background);
   width: fit-content;
-  color: white;
+  color: var(--font-color);
   border: none;
   padding: 0.5rem 1rem;
   margin: 0 auto;
@@ -296,8 +298,8 @@ main {
 }
 
 .footer {
-  background: var(--primary);
-  color: white;
+  background: var(--dark-background);
+   color: var(--font-color);
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
@@ -318,7 +320,7 @@ main {
 
   .nav-list.open {
     display: flex;
-    background: #09131a;
+    background: var(--dark-background);
     margin-top: 1.7rem;
   }
 
@@ -328,7 +330,7 @@ main {
 
   .menu-toggle:hover,
   .menu-toggle.active {
-    color: #29b3c3;
+    color: var(--accent);
     transition: all 0.3s ease;
   }
 
