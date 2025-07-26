@@ -38,19 +38,22 @@ function updateModal(project) {
   desc.textContent = project.description;
   modalContent.appendChild(desc);
 
-  // Technologies
-  const techTitle = document.createElement('h4');
-  techTitle.textContent = "Technologies utilisées";
-  modalContent.appendChild(techTitle);
+// Technologies
+const techTitle = document.createElement('h4');
+techTitle.textContent = "Technologies utilisées";
+modalContent.appendChild(techTitle);
 
-  const logos = document.createElement('div');
-  logos.classList.add('logos');
-  project.technologies.forEach(tech => {
-    const span = document.createElement('span');
-    span.textContent = tech;
-    logos.appendChild(span);
-  });
-  modalContent.appendChild(logos);
+const techContainer = document.createElement('div');
+techContainer.classList.add('modal-tech-icons');
+
+project.technologies.forEach(tech => {
+  const span = document.createElement('span');
+  span.innerHTML = `<i class="${tech.icon}"></i><small>${tech.name}</small>`;
+  techContainer.appendChild(span);
+});
+
+modalContent.appendChild(techContainer);
+
 
     // Images
   project.images.forEach(src => {
