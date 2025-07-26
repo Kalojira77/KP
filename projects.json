@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Projet 1 - HTML/CSS",
+    "description": "Un projet en pur HTML et CSS, responsive et performant.",
+    "images": [
+      "assets/images/projets/image1.webp",
+      "assets/images/projets/image2.webp",
+      "assets/images/projets/image3.webp"
+    ],
+    "technologies": ["HTML5", "CSS3"]
+  },
+  {
+    "title": "Projet 2 - ReactJS/Sass",
+    "description": "Une application moderne en ReactJS avec un design en Sass.",
+    "images": [
+      "assets/images/projets/image19.webp",
+        "assets/images/projets/image20.webp",
+        "assets/images/projets/image21.webp"
+    ],
+    "technologies": ["React", "JavaScript", "Sass"]
+  },
+  {
+    "title": "Projet 3 - NodeJS/Express/MongoDB",
+    "description": "Un backend NodeJS avec API REST et base de données MongoDB.",
+    "images": [
+        "assets/images/projets/image8.webp",
+      "assets/images/projets/image14.webp",
+        "assets/images/projets/image15.webp",
+        "assets/images/projets/image9.webp"
+        
+
+    ],
+    "technologies": ["NodeJS", "Express", "MongoDB"]
+  }
+]
