@@ -31,7 +31,7 @@
   {
     "title": "Kaza – Développement d'une application de location immobilière (React)",
     "description": "Kaza est une application front-end de location immobilière développée avec React, visant à offrir une interface utilisateur moderne et dynamique.",
-    "problems": "Le projet ne présentait pas de grandes difficultés techniques, mais j'ai dû être attentif à la portée et à la modularité des composants afin de maintenir une architecture claire et évolutive. Le plus gros défi a été lié au déploiement, en particulier la redirection 404 qui posait problème.",
+    "problems": "Le projet ne présentait pas de grandes difficultés techniques, mais j'ai dû être attentive à la portée et à la modularité des composants afin de maintenir une architecture claire et évolutive. Le plus gros défi a été lié au déploiement, en particulier la redirection 404 qui posait problème.",
     "skills": "Développement avec React, structuration et modularisation des composants, bonnes pratiques de déploiement et optimisation de l'architecture front-end.",
     "visit": "https://projet-5-oc-react.vercel.app/",
     "images": [
