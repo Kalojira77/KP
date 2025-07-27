@@ -27,11 +27,15 @@ fetch('projects.json')
 
 // Fonction pour mettre à jour la modale
 function updateModal(project) {
-    modalTitle.textContent = project.title;
 
     // Nettoyer le contenu précédent (sauf bouton et titre)
-    const oldElements = modalContent.querySelectorAll('p, img, h4, div');
+    const oldElements = modalContent.querySelectorAll('p, img, h4, div, h3, a, span');
     oldElements.forEach(el => el.remove());
+
+    const title = document.createElement('h3');
+    title.id = 'modal-title';
+    title.textContent = project.title;
+    modalContent.appendChild(title);
 
     // Lien vers le site
     if (project.visit) {
