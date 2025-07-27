@@ -4,7 +4,7 @@
     "description": "Booki est une plateforme web de recherche d’hébergements et d’activités, développée avec une approche centrée sur la performance et l’accessibilité. L’objectif était de transformer une maquette en un site entièrement responsive, en assurant une expérience fluide sur tous types d’écrans (mobile, tablette et desktop).",
     "problems": "Les principales difficultés ont concerné la mise en page avec Flexbox et la gestion des media queries. J’ai surmonté ces défis en structurant soigneusement le code HTML et en ajustant les media queries pour un rendu optimal sur mobile, tablette et desktop.",
     "skills": "Maîtrise de l'intégration HTML5/CSS3, amélioration des compétences en mise en page avec Flexbox, conception de design responsive et structuration sémantique optimisée.",
-    "link": "[à ajouter]",
+    "visit": "https://kalojira77.github.io/Projet_2_OC_HTML_CSS/",
 "images": [
   {
     "src": "assets/images/projets/image1.webp",
@@ -33,7 +33,7 @@
     "description": "Kaza est une application front-end de location immobilière développée avec React, visant à offrir une interface utilisateur moderne et dynamique.",
     "problems": "Le projet ne présentait pas de grandes difficultés techniques, mais j'ai dû être attentif à la portée et à la modularité des composants afin de maintenir une architecture claire et évolutive. Le plus gros défi a été lié au déploiement, en particulier la redirection 404 qui posait problème.",
     "skills": "Développement avec React, structuration et modularisation des composants, bonnes pratiques de déploiement et optimisation de l'architecture front-end.",
-    "link": "[à ajouter]",
+    "visit": "https://projet-5-oc-react.vercel.app/",
     "images": [
   {
     "src": "assets/images/projets/image19.webp",
@@ -65,7 +65,7 @@
     "description": "Mon Vieux Grimoire est une API backend de gestion de livres réalisée en Node.js avec Express. Le projet visait à créer un serveur sécurisé et performant tout en manipulant une base de données.",
     "problems": "La principale difficulté a été de m'adapter à un environnement backend, notamment dans la gestion des middlewares, des statuts de réponse HTTP et de la logique serveur. J'ai appris à concevoir des routes API robustes et à gérer les erreurs de manière cohérente.",
     "skills": "Développement backend avec Node.js et Express, conception d’API REST, gestion des middlewares, sécurité et interactions avec les bases de données.",
-    "link": "[à ajouter]",
+    "visit": "https://github.com/Kalojira77/Projet_6_OC_Backend",
     "images": [
   {
     "src": "assets/images/projets/image8.webp",

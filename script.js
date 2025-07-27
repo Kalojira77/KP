@@ -33,6 +33,18 @@ function updateModal(project) {
     const oldElements = modalContent.querySelectorAll('p, img, h4, div');
     oldElements.forEach(el => el.remove());
 
+    // Lien vers le site
+    if (project.visit) {
+        const visitLink = document.createElement('a');
+        visitLink.href = project.visit;
+        visitLink.target = '_blank';
+        visitLink.rel = 'noopener noreferrer';
+        visitLink.className = 'btn btn-visit';
+        visitLink.textContent = 'Voir le projet';
+        visitLink.setAttribute('aria-label', `Visiter le site ou le code du projet ${project.title}`);
+        modalContent.appendChild(visitLink);
+    }
+
     // Description
     const desc = document.createElement('p');
     desc.innerHTML = `<strong>Description :</strong> ${project.description}`;

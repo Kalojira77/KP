@@ -195,6 +195,14 @@ main {
   cursor: pointer;
 }
 
+.modal a.btn {
+  transition: none;
+  transform: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+
 .modal-content img {
   display: block;
   margin: 1rem auto;
@@ -257,33 +265,34 @@ main {
 }
 
 .tech-icons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
-  }
-  .tech-icons span {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 50px;
-    transition: transform 0.3s;
-  }
-  .tech-icons span:hover {
-    transform: scale(1.2);
-  }
-  .tech-icons span small {
-    margin-top: 8px;
-    font-size: 14px;
-      color: var(--font-color);
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
 
-  .devicon-express-original {
-    color: #000 !important; 
-  }
+.tech-icons span {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 50px;
+  transition: transform 0.3s;
+}
 
+.tech-icons span:hover {
+  transform: scale(1.2);
+}
 
+.tech-icons span small {
+  margin-top: 8px;
+  font-size: 14px;
+    color: var(--font-color);
+}
+
+.devicon-express-original {
+  color: #000 !important; 
+}
 
 .contact form {
   display: flex;
