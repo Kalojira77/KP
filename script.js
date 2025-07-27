@@ -78,14 +78,14 @@ function updateModal(project) {
     modalContent.appendChild(techContainer);
 
     // Images
-    if (project.images) {
-        project.images.forEach(src => {
-            const img = document.createElement('img');
-            img.src = src;
-            img.alt = `Aperçu de ${project.title}`;
-            modalContent.appendChild(img);
-        });
-    }
+if (project.images) {
+    project.images.forEach(image => {
+        const img = document.createElement('img');
+        img.src = image.src;
+        img.alt = image.alt || `Aperçu de ${project.title}`;
+        modalContent.appendChild(img);
+    });
+}
 }
 
 cards.forEach(card => {
@@ -114,9 +114,26 @@ modal.addEventListener('click', (e) => {
 document.getElementById('year').textContent = new Date().getFullYear();
 
 // EmailJS
+let lastSubmitTime = 0; // Variable pour limiter les envois rapides
+
 document.getElementById('contact-form').addEventListener('submit', function (e) {
     e.preventDefault();
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this, 'YOUR_PUBLIC_KEY')
+
+    const now = Date.now();
+    if (now - lastSubmitTime < 5000) { // 5 secondes d'intervalle minimum
+        alert("Veuillez patienter avant de renvoyer le formulaire.");
+        return;
+    }
+    lastSubmitTime = now;
+
+    // Honeypot anti-bot
+    const honeypot = document.getElementById('honeypot');
+    if (honeypot && honeypot.value.trim() !== "") {
+        console.warn("Bot détecté !");
+        return; // Stop l'envoi
+    }
+
+    emailjs.sendForm('service_aan0wzc', 'template_y8qgj4c', this, '0YitJV__S0yeF_WVu')
         .then(() => {
             alert('Message envoyé !');
             this.reset();

@@ -7,7 +7,19 @@
   <title>Portfolio - Développeuse Web</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-
+  <meta name="description" content="Portfolio de Karen Brokke, développeuse web à Montpellier spécialisée en React et Node.js. Découvrez mes projets et compétences.">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Karen Brokke",
+  "jobTitle": "Développeuse Web",
+  "sameAs": [
+    "https://www.linkedin.com/in/brokke",
+    "https://https://github.com/Kalojira77/"
+  ]
+}
+</script>
 </head>
 <body>
   <!-- HEADER -->
@@ -141,6 +153,9 @@
         <label for="message">Message</label>
         <textarea id="message" name="message" rows="5" required></textarea>
 
+        <!-- Champ honeypot -->
+        <input type="text" name="_honeypot" id="honeypot" style="display:none">
+
         <button type="submit">Envoyer</button>
       </form>
       <a href="assets/docs/Karen Brokke.pdf" target="_blank" class="btn">Télécharger mon CV</a>
@@ -151,7 +166,11 @@
   <footer class="footer" role="contentinfo">
     <p>&copy; <span id="year"></span> | 34000 Montpellier</p>
   </footer>
-
+  
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script>
+    emailjs.init("0YitJV__S0yeF_WVu");
+  </script>
   <script src="script.js"></script>
 </body>
 </html>

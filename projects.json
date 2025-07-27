@@ -5,11 +5,20 @@
     "problems": "Les principales difficultés ont concerné la mise en page avec Flexbox et la gestion des media queries. J’ai surmonté ces défis en structurant soigneusement le code HTML et en ajustant les media queries pour un rendu optimal sur mobile, tablette et desktop.",
     "skills": "Maîtrise de l'intégration HTML5/CSS3, amélioration des compétences en mise en page avec Flexbox, conception de design responsive et structuration sémantique optimisée.",
     "link": "[à ajouter]",
-   "images": [
-       "assets/images/projets/image1.webp",
-      "assets/images/projets/image2.webp",
-      "assets/images/projets/image3.webp"
-    ],
+"images": [
+  {
+    "src": "assets/images/projets/image1.webp",
+    "alt": "Aperçu du projet - Haut de la landing page du site Booki"
+  },
+  {
+    "src": "assets/images/projets/image2.webp",
+    "alt": "Aperçu du projet - Bas de la landing page du site Booki"
+  },
+  {
+    "src": "assets/images/projets/image3.webp",
+    "alt": "Aperçu du projet - Vue de la version mobile du site Booki"
+  }
+],
     "technologies": [
       { "name": "HTML5", "icon": "devicon-html5-plain colored" },
       { "name": "CSS3", "icon": "devicon-css3-plain colored" },
@@ -26,10 +35,19 @@
     "skills": "Développement avec React, structuration et modularisation des composants, bonnes pratiques de déploiement et optimisation de l'architecture front-end.",
     "link": "[à ajouter]",
     "images": [
-       "assets/images/projets/image19.webp",
-        "assets/images/projets/image20.webp",
-        "assets/images/projets/image21.webp"
-    ],
+  {
+    "src": "assets/images/projets/image19.webp",
+    "alt": "Aperçu du projet - Landing de l'app Kaza"
+  },
+  {
+    "src": "assets/images/projets/image20.webp",
+    "alt": "Aperçu du projet - Détail d'une annonce de l'app Kaza"
+  },
+  {
+    "src": "assets/images/projets/image21.webp",
+    "alt": "Aperçu du projet - Page à propos de l'app Kaza"
+  }
+],
     "technologies": [
       { "name": "React", "icon": "devicon-react-original colored" },
       { "name": "JavaScript", "icon": "devicon-javascript-plain colored" },
@@ -49,11 +67,23 @@
     "skills": "Développement backend avec Node.js et Express, conception d’API REST, gestion des middlewares, sécurité et interactions avec les bases de données.",
     "link": "[à ajouter]",
     "images": [
-      "assets/images/projets/image8.webp",
-      "assets/images/projets/image14.webp",
-        "assets/images/projets/image15.webp",
-        "assets/images/projets/image9.webp"
-    ],
+  {
+    "src": "assets/images/projets/image8.webp",
+    "alt": "Aperçu du projet - Détail d'un ouvrage sur le site Mon Vieux Grimoire"
+  },
+  {
+    "src": "assets/images/projets/image14.webp",
+    "alt": "Aperçu du projet - Page de connection du site Mon Vieux Grimoire"
+  },
+  {
+    "src": "assets/images/projets/image15.webp",
+    "alt": "Aperçu du projet - formulaire d'ajout d'un ouvrage sur le site Mon Vieux Grimoire"
+  },
+  {
+    "src": "assets/images/projets/image9.webp",
+    "alt": "Aperçu du projet - Détail de la collection books sur mongoDB"
+  }
+],
     "technologies": [
       { "name": "Node.js", "icon": "devicon-nodejs-plain colored" },
       { "name": "Express", "icon": "devicon-express-original" },
