@@ -154,6 +154,7 @@
         <textarea id="message" name="message" rows="5" required></textarea>
 
         <!-- Champ honeypot -->
+        <label for="honeypot" class="visually-hidden" aria="hidden">Ne pas remplir ce champ</label>
         <input type="text" name="_honeypot" id="honeypot" style="display:none">
 
         <button type="submit">Envoyer</button>
@@ -162,10 +163,23 @@
     </section>
   </main>
 
-  <!-- FOOTER -->
-  <footer class="footer" role="contentinfo">
-    <p>&copy; <span id="year"></span> | 34000 Montpellier</p>
-  </footer>
+<!-- FOOTER -->
+<footer class="footer" role="contentinfo">
+  <p>&copy; <span id="year"></span> | 34000 Montpellier</p>
+
+  <section class="social-links" aria-label="Liens vers mes profils">
+    <a href="https://www.linkedin.com/in/brokke" target="_blank" rel="noopener noreferrer" aria-label="Profil LinkedIn">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.27c-.96 0-1.73-.78-1.73-1.73 0-.96.78-1.73 1.73-1.73.96 0 1.73.78 1.73 1.73 0 .96-.77 1.73-1.73 1.73zm13.5 11.27h-3v-5.6c0-1.33-.03-3.05-1.86-3.05-1.86 0-2.15 1.45-2.15 2.95v5.7h-3v-10h2.88v1.36h.04c.4-.76 1.38-1.55 2.85-1.55 3.05 0 3.61 2.01 3.61 4.63v5.56z"/>
+      </svg>
+    </a>
+    <a href="https://github.com/Kalojira77" target="_blank" rel="noopener noreferrer" aria-label="Profil GitHub">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 0c-6.627 0-12 5.373-12 12 0 5.302 3.438 9.8 8.205 11.387.6.113.82-.261.82-.58 0-.285-.011-1.04-.016-2.04-3.338.726-4.042-1.61-4.042-1.61-.546-1.385-1.333-1.754-1.333-1.754-1.089-.745.083-.73.083-.73 1.205.085 1.84 1.237 1.84 1.237 1.07 1.835 2.807 1.304 3.492.998.108-.774.418-1.305.762-1.604-2.665-.304-5.467-1.334-5.467-5.933 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.118-3.176 0 0 1.008-.322 3.3 1.23.96-.267 1.988-.4 3.012-.404 1.023.004 2.052.137 3.012.404 2.291-1.552 3.297-1.23 3.297-1.23.654 1.652.243 2.873.12 3.176.77.84 1.235 1.91 1.235 3.221 0 4.609-2.806 5.625-5.478 5.922.43.372.823 1.102.823 2.222 0 1.604-.014 2.896-.014 3.289 0 .32.218.697.825.579 4.765-1.588 8.2-6.085 8.2-11.387 0-6.627-5.373-12-12-12z"/>
+      </svg>
+    </a>
+  </section>
+</footer>
   
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   <script>

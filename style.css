@@ -23,7 +23,8 @@ body {
   color: var(--font-color);
 }
 
-h2 {
+h1, h2, h3 {
+  color: var(--font-color);
   margin-bottom: 1rem;
 }
 
@@ -143,6 +144,7 @@ main {
 }
 
 .card:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   transform: scale(1.02);
   transition: transform 0.3s ease;
 }
@@ -254,32 +256,32 @@ main {
   width: auto;
 }
 
- .tech-icons {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-      margin-top: 20px;
-    }
-    .tech-icons span {
-      display: inline-flex;
-      flex-direction: column;
-      align-items: center;
-      font-size: 50px;
-      transition: transform 0.3s;
-    }
-    .tech-icons span:hover {
-      transform: scale(1.2);
-    }
-    .tech-icons span small {
-      margin-top: 8px;
-      font-size: 14px;
-       color: var(--font-color);
-    }
+.tech-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .tech-icons span {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    transition: transform 0.3s;
+  }
+  .tech-icons span:hover {
+    transform: scale(1.2);
+  }
+  .tech-icons span small {
+    margin-top: 8px;
+    font-size: 14px;
+      color: var(--font-color);
+  }
 
-    .devicon-express-original {
-      color: #000 !important; 
-    }
+  .devicon-express-original {
+    color: #000 !important; 
+  }
 
 
 
@@ -316,12 +318,38 @@ main {
   width: 100%;
 }
 
+.visually-hidden {
+  display: none;
+}
+
 .footer {
   background: var(--dark-background);
-   color: var(--font-color);
+  color: var(--font-color);
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.social-links a {
+  color: var(--font-color);
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.social-links a:hover {
+  color: var(--secondary); 
+  transform: scale(1.1);
+}
+
+.social-links svg {
+  width: 32px;
+  height: 32px;
 }
 
 /* Responsive */
