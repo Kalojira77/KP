@@ -1,8 +1,11 @@
 [
-  {
-    "title": "Projet 1 - HTML/CSS",
-    "description": "Un projet en pur HTML et CSS, responsive et performant.",
-    "images": [
+  { 
+    "title": "Booki – Intégration d'une maquette responsive (HTML/CSS)",
+    "description": "Booki est une plateforme web de recherche d’hébergements et d’activités, développée avec une approche centrée sur la performance et l’accessibilité. L’objectif était de transformer une maquette en un site entièrement responsive, en assurant une expérience fluide sur tous types d’écrans (mobile, tablette et desktop).",
+    "problems": "Les principales difficultés ont concerné la mise en page avec Flexbox et la gestion des media queries. J’ai surmonté ces défis en structurant soigneusement le code HTML et en ajustant les media queries pour un rendu optimal sur mobile, tablette et desktop.",
+    "skills": "Maîtrise de l'intégration HTML5/CSS3, amélioration des compétences en mise en page avec Flexbox, conception de design responsive et structuration sémantique optimisée.",
+    "link": "[à ajouter]",
+   "images": [
        "assets/images/projets/image1.webp",
       "assets/images/projets/image2.webp",
       "assets/images/projets/image3.webp"
@@ -17,8 +20,11 @@
     ]
   },
   {
-    "title": "Projet 2 - ReactJS/Sass",
-    "description": "Une application moderne en ReactJS avec un design en Sass et Scss.",
+    "title": "Kaza – Développement d'une application de location immobilière (React)",
+    "description": "Kaza est une application front-end de location immobilière développée avec React, visant à offrir une interface utilisateur moderne et dynamique.",
+    "problems": "Le projet ne présentait pas de grandes difficultés techniques, mais j'ai dû être attentif à la portée et à la modularité des composants afin de maintenir une architecture claire et évolutive. Le plus gros défi a été lié au déploiement, en particulier la redirection 404 qui posait problème.",
+    "skills": "Développement avec React, structuration et modularisation des composants, bonnes pratiques de déploiement et optimisation de l'architecture front-end.",
+    "link": "[à ajouter]",
     "images": [
        "assets/images/projets/image19.webp",
         "assets/images/projets/image20.webp",
@@ -37,8 +43,11 @@
     ]
   },
   {
-    "title": "Projet 3 - NodeJS/Express/MongoDB",
-    "description": "Un backend NodeJS avec API REST et base de données MongoDB.",
+    "title": "Mon Vieux Grimoire – Développement d'une API REST (Node.js/Express)",
+    "description": "Mon Vieux Grimoire est une API backend de gestion de livres réalisée en Node.js avec Express. Le projet visait à créer un serveur sécurisé et performant tout en manipulant une base de données.",
+    "problems": "La principale difficulté a été de m'adapter à un environnement backend, notamment dans la gestion des middlewares, des statuts de réponse HTTP et de la logique serveur. J'ai appris à concevoir des routes API robustes et à gérer les erreurs de manière cohérente.",
+    "skills": "Développement backend avec Node.js et Express, conception d’API REST, gestion des middlewares, sécurité et interactions avec les bases de données.",
+    "link": "[à ajouter]",
     "images": [
       "assets/images/projets/image8.webp",
       "assets/images/projets/image14.webp",
