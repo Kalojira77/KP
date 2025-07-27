@@ -15,15 +15,18 @@
 
 body {
   font-family: Arial, sans-serif;
- /* color: var(--font-color);
-  background: var(--secondary); */
   line-height: 1.6;
-
   background-color: var(--primary);
   color: var(--font-color);
 }
 
-h1, h2, h3 {
+h1 {
+  font-size: 2rem !important;
+  color: var(--font-color);
+  margin-bottom: 1rem;
+}
+
+h2, h3 {
   color: var(--font-color);
   margin-bottom: 1rem;
 }
